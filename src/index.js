@@ -7,6 +7,7 @@ import Counter from './Counter'
 import reportWebVitals from './reportWebVitals'
 import Login from './Login'
 import LoopDemo from './demo/LoopDemo.js'
+import NumberArray from './NumberArray.js'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
@@ -14,7 +15,7 @@ root.render(
     <App />
     <Counter />
     <Login />
-    <LoopDemo />
+    <NumberArray />
   </React.StrictMode>
 )
 
