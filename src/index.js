@@ -6,6 +6,7 @@ import Counter from './Counter'
 
 import reportWebVitals from './reportWebVitals'
 import Login from './Login'
+import ShowHide from '<div className="" />ShowHide'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
@@ -13,6 +14,7 @@ root.render(
     <App />
     <Counter />
     <Login />
+    <ShowHide />
   </React.StrictMode>
 )
 
